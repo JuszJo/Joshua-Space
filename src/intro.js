@@ -2,7 +2,7 @@ import Table from "./nav";
 
 const Intro = () => {
     return (
-    <div className="section1">
+    <div id="home" className="section1">
         <Table />
         <section className="headerwrap">
             <section className="header">
