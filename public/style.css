@@ -1,0 +1,260 @@
+/*@font-face {
+    font-family: "Poppins";
+    src: url("./Poppins/Poppins-Regular.ttf")
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*background-color: rgb(97, 153, 212);*/
+    font-family: "Product Sans";
+    font-size: 16px;
+}
+body{
+    /*background: linear-gradient(rgb(97, 153, 212) 650px, #ffffff 100px);*/
+    background-color: white;
+}
+
+#root{
+    
+}
+/*#hlogo{
+    position: absolute;
+    width: 50%; 
+    z-index: -1;
+    opacity: 0.3;
+}*/
+
+nav ul li:first-child{
+    border-bottom: 2px solid #484552;
+}
+
+
+nav li:hover{
+    border-bottom: 2px solid #484552;
+}
+
+.navbar{
+    width: 100%;
+    margin: 15px 0 0;
+}
+
+
+.nav-items{
+    font-size: 1.3rem;
+}
+
+
+a, a:visited, a:hover, button, button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+button{
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: all ease-in-out 0.25s;
+}
+.section1, a{
+    color: #393841;
+}
+
+.headerwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 0 70px 0;
+    /*margin: 0 200px;*/
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.header h1{
+    max-width: 35rem;
+}
+.header p{
+    color: #484552;
+    font-weight: bold;
+    font-size: x-large;
+    max-width: 30rem;
+}
+
+.intro{
+    font-size: 4.0rem;
+    margin: 0px;
+}
+.section1 button{
+    margin-top: 5px;
+    padding: 10px 25px;
+    color: #F2F2F2;
+    font-weight: bold;
+    background-color: #484552;
+    border: 2px solid #484552;
+}
+.section1 button:hover{
+    color: #484552;
+    /*background-color: #F2F2F2;*/
+    background-color: white;
+    text-align: center;
+
+}
+.image-cont{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 700px;
+}
+.section-about-cont{
+    color: #F2F2F2;
+    background-color: #484552;
+}
+.section-about-flex{
+    display: flex;
+    justify-content: center;
+    /*margin: 0 200px;*/
+}
+.section-about{
+    display: flex;
+    flex-direction: column;
+    padding-right: 330px;
+}
+.section-about section{
+}
+.section-about-h1{
+    display: flex;
+}
+.section-about h1{
+    margin: 20px 0;
+}
+
+.section-about span{
+    border-bottom: 3px solid #F2F2F2;
+    font-size: 2rem;
+}
+.section-about-article{
+    display: flex;
+}
+.section-about article{
+    display: flex;
+    margin: 30px 0;
+    max-width: 900px;
+    color: #DBDBDB;
+}
+.section-about-tech{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+}
+.section-about article, .section-about p{
+    font-size: 1.3rem;
+}
+.section-about button{
+    background-color: #F2F2F2;
+    color: #393841;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 25px;
+    border: 2px solid #F2F2F2;
+}
+.section-about button:hover{
+    color: #F2F2F2;
+    background-color: #393841;
+}
+@media only screen and (max-width: 1500px){
+    html{
+        font-size: 15px;
+    }
+    .image{
+        width: 600px;
+    }
+    .section-about{
+        padding-right: 235px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    html{
+        font-size: 14px;
+    }
+    .image{
+        width: 500px;
+    }
+    .section-about{
+        padding-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    html{
+        font-size: 13px;
+    }
+    .section-about{
+        padding-right: 50px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    html{
+        font-size: 12px;
+    }
+    .image{
+        width: 490px;
+    }
+    .section-about{
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 960px){
+    .image{
+        display: none;
+    }
+    .headerwrap{
+        
+    }
+    .header h1, .header p{
+        max-width: 60rem;
+    }
+    .section-about-flex{
+        
+    }
+    .section-about article{
+        max-width: 60rem;
+    }
+    .section-about-tech{
+        gap: 200px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .section-about-tech{
+        gap: 170px;
+    }
+    .header h1, .header p{
+        max-width: 50rem;
+    }
+    .section-about article{
+        max-width: 50rem;
+    }
+}
+@media only screen and (max-width: 660px){
+    .section-about-tech{
+        gap: 50px;
+    }
+    .header h1, .header p{
+        max-width: 40rem;
+    }
+    .section-about article{
+        max-width: 40rem;
+    }
+}
