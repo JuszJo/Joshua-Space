@@ -32,40 +32,8 @@ ReactDOM.render(myelement, document.getElementById(`man2`));
 
 import React from "react";
 import ReactDOM from "react-dom";
-
-const Intro = () => {
-    return (
-    <div className="section1">
-        <Table />
-        <div className="headerwrap">
-            <section className="header">
-                <h1 className="intro text-color">Hi, I'm Joshua.<br/>Aspiring Fullstack Dev.</h1>
-                <p className="para text-color">Studying <span className="para2 text-color2">Software Engineering</span> and learning<br/> about
-                <span className="para2 text-color2"> Game Dev</span></p>
-            </section>   
-            <section className="image">
-                <img src="task.png" className="dev" />
-            </section>
-        </div>
-    </div>
-    );
-}
-
-const Table = () => {
-    return (
-        <nav className="navbar">
-            <ul>
-                <li><a href="" className="nav-items text-color">Home</a></li>
-                <li><a href="" className="nav-items text-color">About</a></li>
-                <li><a href="" className="nav-items text-color">Projects</a></li>
-                <li><a href="" className="nav-items text-color">Contact</a></li>
-            </ul>
-        </nav>
-    );
-}
-
-const main = <div id="reactmain"></div>
+import Main from "./main"
 
 
-ReactDOM.render(<Intro />, document.getElementById("root"));
+ReactDOM.render(<Main />, document.getElementById("root"));
 //ReactDOM.render(main, document.getElementById("main"));
