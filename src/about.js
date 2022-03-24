@@ -18,7 +18,7 @@ const About = () => {
                             Back-End: Node.js, Express.js.<br/><br/>
                             Database: MongoDB, MongoDB Atlas.<br/><br/>
                         </p>
-                        <button>My Works</button>
+                        
                     </section>
                 </div>
             </section>

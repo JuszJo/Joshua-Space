@@ -11,7 +11,7 @@ const Intro = () => {
                     Currently love Data Visualization and Simulations.
                 </p>
                 <div>
-                    <button>Say Hello</button>
+                    
                 </div>
             </section>   
             <section className="image-cont">
